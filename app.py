@@ -98,7 +98,7 @@ def signup():
 def parse_and_scale(form):
     vals = [
         float(form[k]) for k in
-        ['PRG', 'PL', 'PR', 'SK', 'TS', 'M11', 'BD2', 'Age', 'Insurance']
+        ['PRG', 'PA', 'PR', 'SK', 'TS', 'M11', 'BD2', 'Age', 'Insurance']
     ]
     arr = np.array([vals])
     return scaler.transform(arr)
