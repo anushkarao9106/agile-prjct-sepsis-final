@@ -14,18 +14,17 @@ pip install -r requirements.txt
 
 ---
 
-
 ## Model Summary
 
 ### Comparative Analysis
 
-* Compared Random Forest (ML), ANN (DL), and QNN (QML) models using Accuracy, Precision, Recall, and F1 Score.
-* ANN achieved the highest predictive performance among all evaluated models.
+* Compared **Random Forest (ML)**, **ANN (DL)**, and **QNN (QML)** models using Accuracy, Precision, Recall, and F1 Score.
+* **Random Forest achieved the highest predictive performance** among all evaluated models.
 * Best Results:
 
-  * Accuracy: ~74.17%
-  * F1 Score: ~61.73%
-* ANN was selected as the final deployment model for real-time sepsis risk prediction.
+  * Accuracy: **~84.17%**
+  * F1 Score: **~75.73%**
+* Random Forest was selected as the final deployment model for real-time sepsis risk prediction.
 
 ---
 
@@ -58,7 +57,15 @@ pip install -r requirements.txt
 
 ## Notes
 
-* Comparative evaluation of Random Forest (ML), ANN (DL), and QNN (QML) identified ANN as the best-performing model, achieving ~74.17% accuracy and ~61.73% F1 Score.
-* Random Forest served as the baseline ML model, while QNN was explored to assess the potential of quantum-enhanced learning.
+* Comparative evaluation of **Random Forest (ML)**, **ANN (DL)**, and **QNN (QML)** identified **Random Forest as the best-performing model**, achieving **~84.17% accuracy** and **~61.73% F1 Score**.
+* ANN was implemented as the primary Deep Learning model, while QNN was explored to assess the potential of quantum-enhanced learning for healthcare prediction tasks.
 * The system supports integration with a Flask-based web application for secure, real-time sepsis risk assessment.
 * Ensure that `Patients_Files_Train.csv` is present in the project directory before training.
+
+---
+
+## Project Outcome
+
+* Developed and evaluated ML, DL, and QML approaches for ICU sepsis risk prediction.
+* Demonstrated that **Random Forest outperformed ANN and QNN** on the available dataset.
+* Built a foundation for real-time clinical decision support through a deployable prediction pipeline.
