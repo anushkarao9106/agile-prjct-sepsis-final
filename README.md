@@ -24,7 +24,6 @@ pip install -r requirements.txt
 
   * Accuracy: **~84.17%**
   * F1 Score: **~75.73%**
-* Random Forest was selected as the final deployment model for real-time sepsis risk prediction.
 
 ---
 
